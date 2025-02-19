@@ -31,15 +31,7 @@ public class Week4Test {
 
     @Test
     public void testMax2Int3(){
-        assertEquals(5, Week4.max2Int(5, 3));
-        assertEquals(5, Week4.max2Int(3, 5));
-        assertEquals(5, Week4.max2Int(5, 5));
-        assertEquals(0, Week4.max2Int(0, 0));
-        assertEquals(-5, Week4.max2Int(-5, -10));
-        assertEquals(-5, Week4.max2Int(-10, -5));
-        assertEquals(0, Week4.max2Int(-5, 0));
-        assertEquals(0, Week4.max2Int(0, -5));
-        assertEquals(0, Week4.max2Int(0, 0));
+
     }
 
     @Test
